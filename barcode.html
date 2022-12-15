@@ -14,11 +14,13 @@
         <a-marker type='barcode' value='11'>
             <a-cone position='0 1 0' color="blue"></a-cone>
         </a-marker>
+
+<a-marker type='barcode' value=’22’>
+            <a-box position='0 1 0' color="yellow"></a-box>
+        </a-marker>
     
         <!-- use this <a-entity camera> to support multiple-markers, otherwise use <a-marker-camera> instead of </a-marker> -->
-        <a-marker-camera typetype='barcode' value='22'>
-	      <a-cone position='0 1 0' color="blue"></a-cone>
-	  </a-marker-camera>
+        <a-entity camera></a-entity>
         </a-scene>
     </body>
 </html>
